@@ -1,3 +1,15 @@
+"""
+Best Runtime: O(nlogn)
+Worst Runtime: O(n^2)
+
+Details:
+Iterating Array: O(n)
+Splitting and Merging: O(logn)
+
+Algorithm Idea:
+Split the array until the element becomes 1
+When merging back, compare the value and insert lower values first accordingly
+"""
 
 def merge_sort(array):
     
